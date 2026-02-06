@@ -23,12 +23,10 @@
 
 ### 核心结构
 ```
-knowledge/              # 知识存储
-├── areas/              # 领域知识（技术、工作、学习等）
-├── notes/              # 日常笔记和想法
-├── references/         # 参考资料和收藏
-├── projects/           # 项目文档
-└── templates/          # 知识记录模板
+knowledge/              # 知识存储（扁平化结构）
+├── claude-code-introduction.md    # Claude Code技术介绍
+├── （其他知识文件）                # 所有知识文件直接放在根目录
+└── index.md                       # 知识库导航和文件索引
 
 templates/              # 模板系统
 ├── conversation/       # 对话模板
@@ -60,8 +58,8 @@ log/                    # 操作日志
 ### 问题类型处理
 
 #### 1. 知识查询（"什么是X？"、"X的原理？"）
-- 检查knowledge/areas/相关领域
-- 查找knowledge/references/参考资料
+- 在knowledge/中搜索相关领域知识文件
+- 在knowledge/中查找参考资料文件
 - 从相关知识点推断答案
 
 #### 2. 问题解决（"如何实现X？"、"X出错了？"）
@@ -77,7 +75,7 @@ log/                    # 操作日志
 #### 4. 创意生成（"关于X的想法？"、"如何改进X？"）
 - 使用brainstorming模板
 - 跨领域知识关联
-- 记录到knowledge/notes/ideas/
+- 记录到knowledge/中的笔记文件
 
 ## AI代理操作指南
 

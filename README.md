@@ -32,11 +32,9 @@
 ai/
 ├── CLAUDE.md              # AI交互指南和系统总览
 ├── knowledge/             # 知识存储核心
-│   ├── areas/            # 领域知识（技术、工作、学习等）
-│   ├── notes/            # 日常笔记和想法
-│   ├── references/       # 参考资料和收藏
-│   ├── projects/         # 项目文档
-│   └── templates/        # 知识记录模板
+│   ├── claude-code-introduction.md    # Claude Code技术介绍
+│   ├── （其他知识文件）                # 所有知识文件直接放在根目录
+│   └── index.md                       # 知识库导航和文件索引
 ├── templates/            # 模板系统
 │   ├── conversation/     # 对话模板
 │   ├── knowledge-format/ # 知识结构模板
@@ -88,7 +86,7 @@ ai/
 用户：请帮我学习React Hooks的核心概念
 AI代理：
 1. 使用qa-patterns.md中的"定义类问题"模板
-2. 检索knowledge/areas/technology/react/相关知识
+2. 在knowledge/中检索react相关知识文件
 3. 结合note-structure.md模板组织学习笔记
 4. 记录交互到log/ai-interactions/conversations/
 ```
@@ -100,7 +98,7 @@ AI代理：
 1. 使用analysis-frames.md中的"根本原因分析"框架
 2. 查找类似问题的解决记录
 3. 提供分步骤的解决方案
-4. 将解决方案存入knowledge/areas/technology/build-issues/
+4. 将解决方案存入knowledge/中的相关文件
 ```
 
 ### 示例3：创意生成
@@ -110,7 +108,7 @@ AI代理：
 1. 使用brainstorming.md模板引导思考
 2. 关联不同领域的相关知识
 3. 生成结构化的创意提案
-4. 记录创意到knowledge/notes/ideas/
+4. 记录创意到knowledge/中的笔记文件
 ```
 
 ## 配置指南

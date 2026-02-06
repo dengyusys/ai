@@ -138,7 +138,7 @@ workflow:
     - step: "问题分类"
       template: "templates/conversation/qa-patterns.md"
     - step: "知识检索"
-      source: "knowledge/areas/"
+      source: "knowledge/"
     - step: "答案生成"
       template: "templates/output-format/summary.md"
     - step: "日志记录"
@@ -241,6 +241,6 @@ A：模板提供结构而不是限制，可以根据需要灵活调整和扩展�
 - **计划更新**：每月检查内容准确性，根据使用经验补充新内容
 
 ---
-**归档位置**：knowledge/areas/technology/ai-tools/
+**归档位置**：knowledge/
 **关联模板**：templates/knowledge-format/note-structure.md
 **日志记录**：log/ai-interactions/insights/claude-code-integration.md

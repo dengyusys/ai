@@ -212,7 +212,7 @@
 
 **总结完成时间：** YYYY-MM-DD
 **下次总结时间：** YYYY-MM-DD
-**归档位置：** knowledge/areas/[领域]/summaries/
+**归档位置：** knowledge/
 ```
 
 ## 模板使用说明
