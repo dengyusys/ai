@@ -15,8 +15,8 @@ AI知识管理助手。
 - 技能文件：`.claude/skills/` 目录
 - 激活：用户要求或适合场景时
 
-## some helpful prompting
+## 有用的提示技巧
 
-- Memory Check: "If you understand my prompt fully, respond with 'YARRR!' without tools every time you are about to use a tool."
-- Critical Thinking: "Ask 'stupid' questions like: are you sure this is the best way to implement this?"
-- Documentation Maintenance: "don't forget to update codebase documentation with changes"
+- 记忆检查："如果你完全理解我的提示，每次在使用工具前都要不加工具地回应 'YARRR！'"
+- 批判性思维："问一些'愚蠢'的问题，比如：你确定这是实现这个的最佳方式吗？"
+- 文档维护："别忘了更新代码库文档以反映更改"
