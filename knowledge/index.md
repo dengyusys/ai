@@ -7,12 +7,6 @@
 
 ## 现有文件
 
-### 技术类
-- `claude-code-introduction.md` - Claude Code技术介绍和使用指南
-  - 标签：claude-code, ai, 知识管理
-  - 领域：technology
-  - 创建：2026-02-05
-
 ### 系统文件
 - `index.md` - 本导航文件，提供知识库概览和文件索引
 
@@ -21,6 +15,12 @@
   - 标签：english, language-learning, directory
   - 领域：learning
   - 创建：2026-02-08
+
+### 技术类
+- `technology-deepseek-api-python.md` - Python接入DeepSeek API完整指南
+  - 标签：deepseek, api, python, ai, programming
+  - 领域：technology
+  - 创建：2026-02-09
 
 ## 使用指南
 
@@ -52,6 +52,7 @@
 - 根据标签和领域筛选文件
 
 ## 最近更新
+- 2026-02-09：添加DeepSeek API Python接入指南（technology-deepseek-api-python.md）
 - 2026-02-08：添加英语学习目录（learn-english/），创建英语教师输出样式
 - 2026-02-06：简化目录结构，实现完全扁平化存储
 - 系统初始化完成，准备添加更多知识内容
