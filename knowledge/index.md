@@ -15,6 +15,10 @@
   - 标签：english, language-learning, directory
   - 领域：learning
   - 创建：2026-02-08
+- `learn-node/` - Node.js学习资源目录
+  - 标签：nodejs, javascript, backend, directory
+  - 领域：learning
+  - 创建：2026-02-12
 
 ### 技术类
 - `technology-deepseek-api-python.md` - Python接入DeepSeek API完整指南
@@ -52,6 +56,7 @@
 - 根据标签和领域筛选文件
 
 ## 最近更新
+- 2026-02-12：添加Node.js学习目录（learn-node/）及核心模块学习材料（path、fs、http、url）
 - 2026-02-09：添加DeepSeek API Python接入指南（technology-deepseek-api-python.md）
 - 2026-02-08：添加英语学习目录（learn-english/），创建英语教师输出样式
 - 2026-02-06：简化目录结构，实现完全扁平化存储
