@@ -1,6 +1,6 @@
 ---
 name: teaching-session-recorder
-description: Record teaching conversations to markdown files in knowledge/chat/. Use when user says "record chat", "save conversation", "记录对话", or "保存对话".
+description: Record teaching conversations to markdown files in knowledge/learn-english/. Use when user says "record chat", "save conversation", "记录对话", or "保存对话".
 ---
 
 # Teaching Session Recorder
@@ -14,7 +14,7 @@ When the user requests to record the conversation:
 1. Extract the last 10 conversation rounds (student and teacher messages)
 2. Get current date and time
 3. Format as markdown with timestamp
-4. Save to `knowledge/chat/chat-YYYY-MM-DD.md`
+4. Save to `knowledge/learn-english/chat-YYYY-MM-DD.md`
    - If file doesn't exist: create new file with header
    - If file exists: append with separator
 
@@ -55,8 +55,8 @@ T: Past perfect uses had + past participle...
 ## Response after saving
 
 Confirm with simple message:
-- First save of the day: "✅ 已保存到 knowledge/chat/chat-2026-02-08.md"
-- Additional saves: "✅ 已追加到 knowledge/chat/chat-2026-02-08.md"
+- First save of the day: "✅ 已保存到 knowledge/learn-english/chat-2026-02-08.md"
+- Additional saves: "✅ 已追加到 knowledge/learn-english/chat-2026-02-08.md"
 
 Keep response brief - just confirm the save.
 
