@@ -2,8 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(cmd /c:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(git pull:*)"
     ]
   },
-  "outputStyle": "none"
+  "outputStyle": "zen"
 }
