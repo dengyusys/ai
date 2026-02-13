@@ -11,11 +11,11 @@
 
 ## 文件结构规划
 1. `learning-plan.md` - Node.js学习路线图（聚焦核心模块）
-2. `modules/` - 核心模块学习材料
-   - `modules/path.md` - path模块详解
-   - `modules/fs.md` - fs模块详解
-   - `modules/http.md` - http/http2模块详解
-   - `modules/url.md` - url模块详解
+2. **核心模块学习材料**
+   - `path.md` - path模块详解
+   - `fs.md` - fs模块详解
+   - `http.md` - http/http2模块详解
+   - `url.md` - url模块详解
 3. `projects/` - 核心模块实践项目
 4. `resources.md` - 学习资源推荐
 5. `frameworks/` - 框架学习（Express.js等，可选）
